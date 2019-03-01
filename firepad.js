@@ -1795,7 +1795,7 @@
   
     RichTextToolbar.prototype.makeFontSizeDropdown_ = function() {
       // NOTE: There must be matching .css styles in firepad.css.
-      var sizes = [9, 10, 12, 14, 18, 24, 32, 42];
+      var sizes = [9, 10, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 48, 52, 64, 72];
   
       var items = [];
       for(var i = 0; i < sizes.length; i++) {
@@ -1807,7 +1807,8 @@
     };
   
     RichTextToolbar.prototype.makeColorDropdown_ = function() {
-      var colors = ['black', 'red', 'green', 'blue', 'yellow', 'cyan', 'magenta', 'grey'];
+      var colors = ['black', 'red', 'green', 'blue', 'yellow', 'cyan', 'magenta', 'grey', 'LightSalmon', 'DarkRed', 'OrangeRed', 
+                    'Gold', 'Olive', 'LightSeaGreen', 'Tomato', 'Peru'];
   
       var items = [];
       for(var i = 0; i < colors.length; i++) {
